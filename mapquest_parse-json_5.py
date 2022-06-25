@@ -23,6 +23,6 @@ while True:
         print("=============================================");
         print("Directions from " + (orig) + " to " + (dest));
         print("Trip Duration: " + (json_data["route"]["formattedTime"]));
-        print("Miles: " + str(json_data["route"]["distance"]));
-        print("Fuel Used (Gal): " + str(json_data["route"]["fuelUsed"]));
+        print("Kilometers: " + str((json_data["route"]["distance"])*1.61));
+        print("Fuel Used (Ltr): " + str((json_data["route"]["fuelUsed"])*3.78));
         print("=============================================");
