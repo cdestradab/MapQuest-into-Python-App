@@ -8,9 +8,9 @@ key = "pAXPZMssSGEm4bvGQaSUOTPMjBeWh6W5";
 
 while True:
     orig = input("Starting Location: ");
-    dest = input("Destination: ");
     if orig == "quit" or orig == "q":
         break;
+    dest = input("Destination: ");
     if dest == "quit" or dest == "q":
         break;
 
